@@ -1,3 +1,5 @@
+import { Search, User, DollarSign } from "lucide-react";
+
 export default function Task1() {
   return (
     <section className="bg-[#FFFDF9] px-6 py-6 md:px-16">
@@ -21,16 +23,12 @@ export default function Task1() {
           </a>
         </div>
         <div className="flex items-center gap-4">
-          <img
-            src="/images/Group 19.png"
-            alt="Search"
-            className="w-5 h-5 cursor-pointer"
-          />
-          <img
-            src="/images/handshake.png"
-            alt="User"
-            className="w-5 h-5 cursor-pointer"
-          />
+          {/* Lucide Search Icon */}
+          <Search className="w-5 h-5 text-[#211814] cursor-pointer hover:opacity-70" />
+
+          {/* Lucide User Icon */}
+          <User className="w-5 h-5 text-[#211814] cursor-pointer hover:opacity-70" />
+
           <button className="bg-[#211814] text-white px-5 py-2 rounded-lg text-sm font-medium">
             Sign up
           </button>
@@ -59,6 +57,7 @@ export default function Task1() {
         </div>
       </div>
 
+      {/* Filter Bar */}
       <div className="bg-[#EFE3D8] p-4 rounded-2xl mt-8 max-w-4xl mx-auto flex flex-col md:flex-row gap-4 items-center justify-between shadow-sm">
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Location</span>
@@ -78,11 +77,8 @@ export default function Task1() {
         </div>
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Price Range</span>
-          <img
-            src="/images/Group 19.png"
-            alt="Price"
-            className="w-4 h-4 opacity-50"
-          />
+          {/* Lucide DollarSign Icon */}
+          <DollarSign className="w-4 h-4 text-gray-400" />
         </div>
         <button className="bg-[#211814] text-white px-8 py-3 rounded-xl text-sm font-medium w-full md:w-auto">
           Sign up
