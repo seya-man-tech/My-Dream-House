@@ -63,7 +63,7 @@ export default function Task1() {
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Location</span>
           <img
-            src="/images/Group 19.png"
+            src="/images/map pin.png"
             alt="Location"
             className="w-4 h-4 opacity-50"
           />
@@ -71,7 +71,7 @@ export default function Task1() {
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Type</span>
           <img
-            src="/images/Group 19.png"
+            src="/images/vector.png"
             alt="Type"
             className="w-4 h-4 opacity-50"
           />
