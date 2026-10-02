@@ -1,14 +1,19 @@
 import { Search, User, DollarSign } from "lucide-react";
 
-export default function Task1() {
+ function Task1() {
   return (
     <section className="bg-[#FFFDF9] px-6 py-6 md:px-16">
+
       <nav className="flex justify-between items-center py-4">
+
         <div className="flex items-center gap-2">
+
           <img src="/images/logo.png" alt="Dwello Logo" className="h-6" />
+
           <span className="font-bold text-xl text-[#211814]">Dwello</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-[#211814] font-medium text-sm">
+
           <a href="#" className="hover:opacity-70">
             Home
           </a>
@@ -87,3 +92,4 @@ export default function Task1() {
     </section>
   );
 }
+export default Task1;

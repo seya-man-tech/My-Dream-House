@@ -1,4 +1,4 @@
-export default function Task2() {
+function Task2() {
   const features = [
     {
       icon: "/images/Vector-2.png",
@@ -90,3 +90,4 @@ export default function Task2() {
     </section>
   );
 }
+export default Task2;
