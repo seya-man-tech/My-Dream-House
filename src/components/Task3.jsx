@@ -1,4 +1,6 @@
-
+import location from "/images/location.png";
+import room from "/images/rooms.png";
+import size from "/images/size.png";
 
 
  function Task3() {
@@ -54,11 +56,8 @@
             <div className="p-5">
               {/* Location */}
               <div className="flex items-center gap-2 mb-3">
-                <img
-                  src="/images/location.png"
-                  alt="Location"
-                  className="w-4 h-4 object-contain"
-                />
+                <img src={location} />
+               
                 <span className="font-bold text-[#211814] text-sm">
                   {item.location}
                 </span>
@@ -67,19 +66,12 @@
               {/* Specs: Rooms & Size */}
               <div className="flex items-center gap-6 mb-6 text-xs text-gray-700">
                 <div className="flex items-center gap-1.5">
-                  <img
-                    src="/images/rooms.png"
-                    alt="Rooms"
-                    className="w-4 h-4 object-contain"
-                  />
+                  <img src={room} />
+                
                   <span>{item.rooms}</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <img
-                    src="/images/size.png"
-                    alt="Size"
-                    className="w-4 h-4 object-contain"
-                  />
+                  <img src={size} />
                   <span>{item.size}</span>
                 </div>
               </div>

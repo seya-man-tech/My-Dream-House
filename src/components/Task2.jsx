@@ -1,3 +1,6 @@
+import Mask from "/images/Mask group.png";
+
+
 function Task2() {
   const features = [
     {
@@ -26,11 +29,8 @@ function Task2() {
     <section className="bg-[#FFFDF9] px-6 py-12 md:px-16">
       {/* Top Section */}
       <div className="grid md:grid-cols-2 gap-10 items-center mb-16 max-w-6xl mx-auto">
-        <img
-          src="/images/Mask group.png"
-          alt="About Dwello"
-          className="rounded-2xl w-full h-[380px] object-cover"
-        />
+        <img src={Mask} />
+      
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-[#211814] mb-4 leading-tight">
             We Help You To Find <br /> Your Dream Home

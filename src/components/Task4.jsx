@@ -1,4 +1,7 @@
- function Task4() {
+import star from "/images/Star 1.png";
+import img2 from "/images/Group 18.png";
+ import img3 from "/images/Group 19.png";
+function Task4() {
   const testimonials = [
     {
       id: 1,
@@ -75,11 +78,7 @@
 
                 {/* Rating Badge */}
                 <div className="bg-white px-2 py-1 rounded-md flex items-center gap-1 shadow-xs">
-                  <img
-                    src="/images/Star 1.png"
-                    alt="Star"
-                    className="w-3 h-3 object-contain"
-                  />
+               <img src={star} />
                   <span className="font-bold text-[#211814] text-[10px]">
                     {item.rating}
                   </span>
@@ -98,18 +97,10 @@
       {/* Navigation Arrows */}
       <div className="flex justify-center items-center gap-4">
         <button className="bg-[#5C4033] w-10 h-10 rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
-          <img
-            src="/images/Group 18.png"
-            alt="Previous"
-        
-          />
+       <img src={img2} />
         </button>
         <button className="bg-[#5C4033] w-10 h-10 rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
-          <img
-            src="/images/Group 19.png"
-            alt="Next"
-           
-          />
+       <img src={img3} />
         </button>
       </div>
     </section>

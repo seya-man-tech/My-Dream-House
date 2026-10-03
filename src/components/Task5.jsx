@@ -1,3 +1,10 @@
+import icon1 from "/images/icons8-verified-account-96 1.png";
+import icon2 from "/images/icons8-verified-account-96 1.png";
+import vector1 from "/images/Vector-1.png";
+import logo from "/images/logo.png";
+import instagram from "/images/Vector-3.png";
+import facebook from "/images/Vector-4.png";
+import twitter from "/images/Vector-5.png";
 function Task5() {
   return (
     <footer className="bg-[#FFFDF9] text-[#211814]">
@@ -11,19 +18,11 @@ function Task5() {
         {/* Feature Checkpoints */}
         <div className="flex flex-wrap items-center justify-center gap-6 mt-6 mb-8 text-xs md:text-sm font-medium">
           <div className="flex items-center gap-2">
-            <img
-              src="/images/icons8-verified-account-96 1.png"
-              alt="Check"
-              className="w-4 h-4 object-contain"
-            />
+           <img src={icon1} />
             <span>Chat live with our support team</span>
           </div>
           <div className="flex items-center gap-2">
-            <img
-              src="/images/icons8-verified-account-96 1.png"
-              alt="Check"
-              className="w-4 h-4 object-contain"
-            />
+            <img src={icon2} />
             <span>Browse our FAQ</span>
           </div>
         </div>
@@ -31,11 +30,7 @@ function Task5() {
         {/* Email Form */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-lg mx-auto">
           <div className="bg-[#EFE3D8] px-4 py-3 rounded-xl flex items-center gap-3 w-full">
-            <img
-              src="/images/Vector-1.png"
-              alt="Mail"
-              className="w-4 h-4 opacity-70 object-contain"
-            />
+           <img src={vector1} />
             <input
               type="email"
               placeholder="Enter your email address..."
@@ -56,7 +51,7 @@ function Task5() {
           {/* Logo & Slogan */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/images/logo.png" alt="Dwello Logo" className="h-6" />
+              <img src={logo} />
               <span className="font-bold text-xl text-[#211814]">Dwello</span>
             </div>
             <p className="text-gray-600 text-xs leading-relaxed max-w-[200px]">
@@ -148,31 +143,19 @@ function Task5() {
             <ul className="space-y-3 text-xs text-gray-700">
               <li>
                 <a href="#" className="flex items-center gap-2 hover:underline">
-                  <img
-                    src="/images/Vector-3.png"
-                    alt="Instagram"
-                    className="w-4 h-4 object-contain"
-                  />
+                  <img src={instagram} />
                   <span>Instagram</span>
                 </a>
               </li>
               <li>
                 <a href="#" className="flex items-center gap-2 hover:underline">
-                  <img
-                    src="/images/Vector-4.png"
-                    alt="Facebook"
-                    className="w-4 h-4 object-contain"
-                  />
+                 <img src={facebook} />
                   <span>Facebook</span>
                 </a>
               </li>
               <li>
                 <a href="#" className="flex items-center gap-2 hover:underline">
-                  <img
-                    src="/images/Vector-5.png"
-                    alt="Twitter"
-                    className="w-4 h-4 object-contain"
-                  />
+             <img src={twitter} />
                   <span>Twitter (x)</span>
                 </a>
               </li>

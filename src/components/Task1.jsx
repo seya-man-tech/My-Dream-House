@@ -1,19 +1,21 @@
-import { Search, User, DollarSign } from "lucide-react";
+import logo from "/images/logo.png";
+import hero from "/images/hero image 1.png";
+import mapPin from "/images/location.png";
+    import vector from "/images/vector.png";
+  import { Search, User, DollarSign } from "lucide-react";
 
  function Task1() {
   return (
     <section className="bg-[#FFFDF9] px-6 py-6 md:px-16">
 
       <nav className="flex justify-between items-center py-4">
-
         <div className="flex items-center gap-2">
 
-          <img src="/images/logo.png" alt="Dwello Logo" className="h-6" />
+           <img src={logo} />
 
           <span className="font-bold text-xl text-[#211814]">Dwello</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-[#211814] font-medium text-sm">
-
           <a href="#" className="hover:opacity-70">
             Home
           </a>
@@ -54,11 +56,9 @@ import { Search, User, DollarSign } from "lucide-react";
           </button>
         </div>
         <div>
-          <img
-            src="/images/hero image 1.png"
-            alt="Hero House"
-            className="w-full object-cover rounded-2xl"
-          />
+          
+          <img src={hero} />
+         
         </div>
       </div>
 
@@ -66,19 +66,14 @@ import { Search, User, DollarSign } from "lucide-react";
       <div className="bg-[#EFE3D8] p-4 rounded-2xl mt-8 max-w-4xl mx-auto flex flex-col md:flex-row gap-4 items-center justify-between shadow-sm">
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Location</span>
-          <img
-            src="/images/map pin.png"
-            alt="Location"
-            className="w-4 h-4 opacity-50"
-          />
+
+          <img src={mapPin} />
+         
         </div>
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Type</span>
-          <img
-            src="/images/vector.png"
-            alt="Type"
-            className="w-4 h-4 opacity-50"
-          />
+          <img src={vector} />
+        
         </div>
         <div className="bg-white px-4 py-3 rounded-xl w-full flex justify-between items-center text-sm text-gray-500">
           <span>Price Range</span>
